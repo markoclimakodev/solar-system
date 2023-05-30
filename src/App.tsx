@@ -1,4 +1,4 @@
-import React from 'react';
+import './main.css';
 
 function App() {
   return (<p>Sistema Solar</p>);
