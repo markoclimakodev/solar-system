@@ -9,17 +9,32 @@
 .planets-container {
   align-items: center;
   display: flex;
-  gap: 4.4rem;
   justify-content: center;
 }
 
 .solar-system-container hr {
+  animation: floatPlanets 4s infinite ease-in-out;
   background-color: white;
   color: white;
   height: 0.05rem;
   position: absolute;
-  top: 115px;
-  transform: rotate(180deg);
+  top: 195px;
   width: 100%;
   z-index: -1;
 }
+
+@keyframes floatPlanets {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2rem);
+  }
+
+  100% {
+    transform: translateY();
+  }
+}
+
