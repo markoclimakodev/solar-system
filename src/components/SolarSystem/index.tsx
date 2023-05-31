@@ -22,7 +22,6 @@ export default function SolarSystem() {
             />
           );
         })}
-        <hr />
       </div>
     </div>
   );
