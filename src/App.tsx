@@ -1,7 +1,8 @@
+import Header from './components/Header';
 import './main.css';
 
 function App() {
-  return <p className="text-6xl te">Sistema Solar</p>;
+  return <Header />;
 }
 
 export default App;
