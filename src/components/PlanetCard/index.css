@@ -1,5 +1,10 @@
 .planet-card-container {
   align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.planet-card-container img {
+  width: 8rem;
 }

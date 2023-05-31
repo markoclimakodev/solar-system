@@ -1,3 +1,25 @@
 .solar-system-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
+}
+
+.planets-container {
+  align-items: center;
+  display: flex;
+  gap: 4.4rem;
+  justify-content: center;
+}
+
+.solar-system-container hr {
+  background-color: white;
+  color: white;
+  height: 0.05rem;
+  position: absolute;
+  top: 115px;
+  transform: rotate(180deg);
+  width: 100%;
+  z-index: -1;
 }
